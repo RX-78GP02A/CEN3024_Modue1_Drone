@@ -1,4 +1,6 @@
-// Import  Scanner class
+// Name: Marcys Ridley
+
+// Import Scanner class
 import java.util.Scanner;
 
     // Declaration of Ridley_Drone class

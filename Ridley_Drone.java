@@ -1,5 +1,8 @@
 // Name: Marcys Ridley
 // Date: 5/16/2021
+// Program Name: Ridley_Drone
+// Purpose: Simulate using a button for the drones movement in a x,y,z location
+
 
 // Import Scanner class
 import java.util.Scanner;

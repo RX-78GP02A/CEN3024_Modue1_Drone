@@ -1,4 +1,5 @@
 // Name: Marcys Ridley
+// Date: 5/16/2021
 
 // Import Scanner class
 import java.util.Scanner;

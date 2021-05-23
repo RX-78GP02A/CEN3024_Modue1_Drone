@@ -61,3 +61,9 @@ import java.util.Scanner;
                 z++;
                 System.out.println("Moved left in the East direction");
             }
+
+            // movementRight method allows the drone to move right
+            public void movementRight() {
+                z--;
+                System.out.println("Moved right in the West direction");
+            }

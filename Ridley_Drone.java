@@ -3,7 +3,6 @@
 // Program Name: Ridley_Drone
 // Purpose: Simulate using a button for the drones movement in a x,y,z location
 
-
 // Import Scanner class
 import java.util.Scanner;
 

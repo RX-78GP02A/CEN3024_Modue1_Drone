@@ -126,4 +126,19 @@ import java.util.Scanner;
                     case 5:
                         d.movementUp();
                         break;
-                        
+                     case 6:
+                        d.movementDown();
+                        break;
+                     case 7:
+                        d.display();
+                        break;
+                     case 0:
+                        System.out.println("Exiting Navigation... Enjoy your day!");
+                        return;
+                     default:
+                        System.out.println("That was an invalid input, please try again!");
+                }
+            }
+        }
+    }
+

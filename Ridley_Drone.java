@@ -12,15 +12,22 @@ import java.util.Scanner;
         // Declaration of Drone class with movement variables
         public static class Drone {
             // x variable handles up and down movement
-            private int x;   //forward backward
+            private int x;   
             // y variable handles forward and backward movement
-            private int y;   //right left
+            private int y;   
             // z variable handles right and left movement
-            private int z;   //up down
+            private int z;   
 
             // Constructor
             public Drone() {
                 x = 0;
                 y = 0;
                 z = 0;
+            }
+
+            // Parameterized constructor  that passes in movement data
+            public Drone(int x, int y, int z) {
+                this.x = x;
+                this.y = y;
+                this.z = z;
             }

@@ -67,3 +67,12 @@ import java.util.Scanner;
                 z--;
                 System.out.println("Moved right in the West direction");
             }
+
+            // Displays the current coordinates of the drone
+            public void display() {
+                System.out.println("Coordinates:");
+                System.out.println("x = " + x);
+                System.out.println("y = " + y);
+                System.out.println("z = " + z);
+            }
+        }

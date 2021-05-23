@@ -43,3 +43,21 @@ import java.util.Scanner;
                 x--;
                 System.out.println("Moved down"); 
             }
+
+            // movementForward method allows the drone to move forward
+            public void movementForward() {
+                y++;
+                System.out.println("Moved forward in the North direction");
+            }
+
+              // movementBackward method allows the drone to move backward
+            public void movementBackward() {
+                y--;
+                System.out.println("Moved backward in the South direction");
+            }
+
+            // movementLeft method allows the drone to move left
+            public void movementLeft() {
+                z++;
+                System.out.println("Moved left in the East direction");
+            }

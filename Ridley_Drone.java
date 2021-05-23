@@ -104,3 +104,6 @@ import java.util.Scanner;
                                   \n0: Exit Navigation
                                   \n-----------------------
                                   \nPlease choose an option: ");
+
+                // Reads the users input
+                op = sc.nextInt();

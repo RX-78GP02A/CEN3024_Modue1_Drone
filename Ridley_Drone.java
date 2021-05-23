@@ -113,3 +113,7 @@ import java.util.Scanner;
                     case 1:
                         d.movementForward();
                         break;
+                     switch (op) {
+                    case 2:
+                        d.movementBackward();
+                        break;

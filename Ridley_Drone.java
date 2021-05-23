@@ -120,3 +120,10 @@ import java.util.Scanner;
                     case 3:
                         d.movementLeft();
                         break;
+                    case 4:
+                        d.movementRight();
+                        break;
+                    case 5:
+                        d.movementUp();
+                        break;
+                        

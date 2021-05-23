@@ -37,3 +37,9 @@ import java.util.Scanner;
                 x++;
                 System.out.println("Moved up");
             }
+
+            // movementDown method allows the drone to move down
+            public void movementDown() {
+                x--;
+                System.out.println("Moved down"); 
+            }

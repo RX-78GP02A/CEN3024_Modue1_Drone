@@ -76,3 +76,27 @@ import java.util.Scanner;
                 System.out.println("z = " + z);
             }
         }
+
+        public static void main(String[] args) {
+
+            // Declaration of the drone object
+            Drone d = new Drone(3, 4, 5);
+
+            // Initial coordinates of drone
+            d.display();
+
+            // Declaration of the Scanner object
+            Scanner sc = new Scanner(System.in);
+
+            int op;
+
+            // This while loop will loop continuously until user decides to exit navigation
+            while (true) {
+                // Displays the user menu
+                System.out.print("\nWhich direction would you like to move the drone?
+                                  \n1: Move Forward
+                                  \n2: Move Backward
+                                  \n3: Move Left
+                                  \n4: Move Right\n5: Move Up\n6: Move Down
+                                  \n7: Display Coordinates
+                                  \n0: Exit Navigation\n-----------------------\nPlease choose an option: ");

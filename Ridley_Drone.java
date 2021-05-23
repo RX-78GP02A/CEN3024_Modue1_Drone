@@ -31,3 +31,9 @@ import java.util.Scanner;
                 this.y = y;
                 this.z = z;
             }
+
+            // movementUp method the allows the drone to move up
+            public void movementUp() {
+                x++;
+                System.out.println("Moved up");
+            }

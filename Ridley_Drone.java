@@ -97,6 +97,10 @@ import java.util.Scanner;
                                   \n1: Move Forward
                                   \n2: Move Backward
                                   \n3: Move Left
-                                  \n4: Move Right\n5: Move Up\n6: Move Down
+                                  \n4: Move Right
+                                  \n5: Move Up
+                                  \n6: Move Down
                                   \n7: Display Coordinates
-                                  \n0: Exit Navigation\n-----------------------\nPlease choose an option: ");
+                                  \n0: Exit Navigation
+                                  \n-----------------------
+                                  \nPlease choose an option: ");

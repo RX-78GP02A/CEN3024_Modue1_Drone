@@ -107,3 +107,9 @@ import java.util.Scanner;
 
                 // Reads the users input
                 op = sc.nextInt();
+
+                switch (op) {
+
+                    case 1:
+                        d.movementForward();
+                        break;

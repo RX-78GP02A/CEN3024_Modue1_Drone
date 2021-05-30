@@ -12,3 +12,5 @@ package module_3;
         import java.util.ArrayList;
         import java.util.Scanner;
 
+// Declaration of Ridley_SpellCheck    
+    public class Ridley_SpellCheck {

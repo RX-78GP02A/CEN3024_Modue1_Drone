@@ -57,3 +57,18 @@ package module_3;
                 System.out.println(testFileArray.get(i) + " is an unknown word");
         }
     }
+
+    // String variable conversion from file
+    private static String readFileAsString(String fileName) {
+        // Initializes the String variable
+        String text = "";
+        try {
+            text = new String(Files.readAllBytes(Paths.get(fileName)));
+        }
+        // Throws IOException for any converting errors
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+        // returns the String to the method call
+        return text;
+    }

@@ -38,6 +38,10 @@ package module_3;
         // captures typed text and stores it in the dictionary variable dictionary = "dictionary.txt";
         dictionary = keyboard.nextLine();       
 
-         // readFileAsString method converts files into String variables
+        // readFileAsString method converts files into String variables
         testFileText = readFileAsString(testFile);
         dictionaryText = readFileAsString(dictionary);
+
+        // Converts String variables into ArrayLists
+        readDictionary();
+        readTestFile();

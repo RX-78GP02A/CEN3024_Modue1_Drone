@@ -14,3 +14,19 @@ package module_3;
 
 // Declaration of Ridley_SpellCheck    
     public class Ridley_SpellCheck {
+
+// Declaration of variables
+    static String dictionary;
+    static String dictionaryText;
+    static String testFile;
+    static String testFileText;
+    static Scanner s;
+    static Scanner keyboard;
+    static ArrayList<String> dictionaryArray;
+    static ArrayList<String> testFileArray;
+
+  public static void main(String[] args) throws Exception{
+        // Scanner that allows the user to input information
+        keyboard = new Scanner(System.in);
+
+        

@@ -83,3 +83,15 @@ package module_3;
         while (s.hasNextLine())
             testFileArray.add(s.nextLine());
     }
+
+    // Converts dictionaryText String variable into an ArrayList
+    private static void readDictionary(){
+        // Places dictionaryText to a scanner object
+        s = new Scanner(dictionaryText);
+        // Initializes dictionary Arraylist a blank ArrayList
+        dictionaryArray = new ArrayList<String>();
+        // Pushes each String into an ArrayList index
+        while (s.hasNextLine())
+            dictionaryArray.add(s.nextLine());
+    }
+}

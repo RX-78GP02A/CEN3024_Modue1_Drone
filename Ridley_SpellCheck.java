@@ -45,3 +45,15 @@ package module_3;
         // Converts String variables into ArrayLists
         readDictionary();
         readTestFile();
+
+        // Loop that compares the indices of both ArrayLists
+        for (int i=0; i < dictionaryArray.size(); i++)
+        {
+            // Indices have the same information don't act
+            if (dictionaryArray.get(i).equals(testFileArray.get(i))) {
+            }
+            // Otherwise if indices don't display the work and unknown text
+            else
+                System.out.println(testFileArray.get(i) + " is an unknown word");
+        }
+    }

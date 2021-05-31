@@ -72,3 +72,14 @@ package module_3;
         // returns the String to the method call
         return text;
     }
+
+     // Converts testFile String variable into an ArrayList
+    private static void readTestFile(){
+        // Places testFileText to a scanner object
+        s = new Scanner(testFileText);
+        // Initializes testFileArray Arraylist
+        testFileArray = new ArrayList<String>();
+        // Pushes each String into an ArrayList index
+        while (s.hasNextLine())
+            testFileArray.add(s.nextLine());
+    }

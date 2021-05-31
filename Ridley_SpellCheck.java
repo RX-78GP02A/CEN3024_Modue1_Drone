@@ -29,4 +29,11 @@ package module_3;
         // Scanner that allows the user to input information
         keyboard = new Scanner(System.in);
 
-        
+        // Displays interface prompt
+        System.out.println("This program will read data from 2 txt files to compare them for spelling.");
+        System.out.println("Enter the name of the test file with it's extension name.");
+        // Stores input data into the testFile variable testFile = "testStates.txt";
+        testFile = keyboard.nextLine();
+        System.out.println("Enter the name of the dictionary file with it's extension name.");
+        // captures typed text and stores it in the dictionary variable dictionary = "dictionary.txt";
+        dictionary = keyboard.nextLine();       

@@ -5,17 +5,17 @@
 
 package module_3;
 
-// Imports of java classes
+        // Imports of java classes
         import java.io.IOException;
         import java.nio.file.Files;
         import java.nio.file.Paths;
         import java.util.ArrayList;
         import java.util.Scanner;
 
-// Declaration of Ridley_SpellCheck    
+    // Declaration of Ridley_SpellCheck    
     public class Ridley_SpellCheck {
 
-// Declaration of variables
+    // Declaration of variables
     static String dictionary;
     static String dictionaryText;
     static String testFile;
@@ -37,3 +37,7 @@ package module_3;
         System.out.println("Enter the name of the dictionary file with it's extension name.");
         // captures typed text and stores it in the dictionary variable dictionary = "dictionary.txt";
         dictionary = keyboard.nextLine();       
+
+         // readFileAsString method converts files into String variables
+        testFileText = readFileAsString(testFile);
+        dictionaryText = readFileAsString(dictionary);
